@@ -43,7 +43,7 @@
     Логин = SS123456
     Пароль = 12345678
     Email = 12345ss@mail.ru
-  steps: |
+  steps:
     - Вводим логин
     - Вводим email
     - Вводим пароль
@@ -60,7 +60,7 @@
     Открыта страница регистрации
   test-data: |
     empty
-  steps: |
+  steps:
     - Нажать Submit
   expected-result:
     Рядом с каждым полем в форме регистрации появляется уведомление о необходимости заполнения
@@ -73,7 +73,7 @@
     Открыта страница регистрации
   test-data: |
     Пароль = 123
-  steps: |
+  steps:
     - Вводим пароль
     - Нажать кнопку Submit
   expected-result:
@@ -88,7 +88,7 @@
   test-data: |
     Логин = tutuchkin.s@mail.ru
     Пароль = a424em73rus
-  steps: |
+  steps:
     - Нажать кнопку Sign in
     - Вводим логин
     - Вводим пароль
@@ -104,7 +104,7 @@
   test-data: |
     Логин = petrov@mail.ru
     Пароль = a424em73rus
-  steps: |
+  steps:
     - Вводим логин
     - Вводим пароль
     - Нажать Submit
@@ -120,7 +120,7 @@
   test-data: |
     Логин = tutuchkin.s@mail.ru
     Пароль = 1234@@@@@
-  steps: |
+  steps:
     - Вводим логин
     - Вводим пароль
     - Нажать кнопку Submit
