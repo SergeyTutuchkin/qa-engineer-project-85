@@ -9,7 +9,7 @@
     Логин = tutuchki.s@mail.ru
     Пароль = a424em73rus
     Email = tutuchkin.s@mail.ru
-  steps: |
+  steps:
     - Вводим логин
     - Вводим email
     - Вводим пароль
@@ -26,14 +26,14 @@
     Открыта страница регистрации
   test-data: |
     empty
-  steps: |
+  steps:
     - Переключить клавиатуру на раскладку кириллица
     - Вводим Nickname
     - Нажать кнопку Submit
   expected-result: |
     Рядом с полем для ввода Nickname появляется надпись об ошибке
 
-- summary: |
+- summary:
     Проверка на некорректный ввод email при регистрации
   requirement: |
     При вводе несуществующего email появляется уведомление об ошибке
