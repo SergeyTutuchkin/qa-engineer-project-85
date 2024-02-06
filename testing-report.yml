@@ -123,8 +123,8 @@
 
 - summary: |
     Проверка скорости работы сайта на персональном компьютере
-  status: fail
+  status: fail "https://developers.google.com/speed/docs/insights/v5/about?hl=ru#score"
 
 - summary: |
     Проверка скорости работы сайта на мобильном устройстве
-  status: fail
+  status: fail "https://developers.google.com/speed/docs/insights/v5/about?hl=ru#score"
